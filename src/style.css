@@ -53,4 +53,10 @@ main{
 #info{
     width: 50%;
     height: 100%;
+    padding: 32px;
+}
+.text-spacing{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
