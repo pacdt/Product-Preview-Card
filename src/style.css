@@ -5,20 +5,20 @@
 	box-sizing: border-box;
 	font-family: "Montserrat", sans-serif;
 }
-body{
-    background: #F2EAE2;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+	background: #f2eae2;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 p {
 	font-size: 14px;
 	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: 500;
-    line-height: 23px;
+	line-height: 23px;
 	color: #6c7289;
 }
 h2 {
@@ -27,53 +27,68 @@ h2 {
 	font-weight: 700;
 	font-size: 32px;
 	line-height: 32px;
-    color: #1C232B;
-    margin-bottom: 24px;
+	color: #1c232b;
+	margin-bottom: 24px;
 }
-.bg-marine{
-    background-color: #3D8168;
+.bg-marine {
+	background-color: #3d8168;
 }
-.txt-marine{
-    color: #3D8168;
+.txt-marine {
+	color: #3d8168;
 }
-main{
-    display: flex;
-    max-width: 600px;
-    height: 450px;
-    background-color: #fff;
-    border-radius: 10px;
-    flex-direction: row;
+main {
+	display: flex;
+	max-width: 600px;
+	height: 450px;
+	background-color: #fff;
+	border-radius: 10px;
+	flex-direction: row;
 }
-#image{
-    width: 50%;
-    height: 100%;
-    background-image: url(./img/parfum.png);
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+#image {
+	width: 50%;
+	height: 100%;
+	background-image: url(./img/parfum.png);
+	background-size: cover;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
-#info{
-    width: 50%;
-    height: 100%;
-    padding: 32px;
+#info {
+	width: 50%;
+	height: 100%;
+	padding: 32px;
 }
-.text-spacing{
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
+.text-spacing {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
 }
-#price{
-    margin-top: 30px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 30px;
+#price {
+	margin-top: 30px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 20px;
+	margin-bottom: 30px;
 }
-#price h2{
-    margin-bottom: 0;
+#price h2 {
+	margin-bottom: 0;
 }
-#price p{
-    text-decoration-line: line-through;
+#price p {
+	text-decoration-line: line-through;
 }
-
+button {
+	color: #fff;
+	font-weight: 700;
+	display: flex;
+	gap: 12px;
+	width: 100%;
+	height: 48px;
+	border: none;
+	border-radius: 8px;
+	justify-content: center;
+	align-items: center;
+}
+button:hover{
+    background: #1A4032;
+    cursor: pointer;
+}
