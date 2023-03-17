@@ -92,3 +92,60 @@ button:hover{
     background: #1A4032;
     cursor: pointer;
 }
+@media screen and (max-width: 660px) {
+    main {
+        max-width: 345px;
+        height: 612px;
+        flex-direction: column;
+    }
+    h2{
+        margin-bottom: 16px;
+    }
+    #image {
+        width: 100%;
+        height: 240px;
+        background-image: url(./img/parfum.png);
+        background-position: 0 -119px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+    #info {
+        width: 100%;
+        height: 341px;
+        padding: 24px;
+    }
+    .text-spacing {
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+    #price {
+        margin-top: 24px;
+        margin-bottom: 20px;
+    }
+    #price h2 {
+        margin-bottom: 0;
+    }
+    #price p {
+        text-decoration-line: line-through;
+    }
+    button {
+        color: #fff;
+        font-weight: 700;
+        display: flex;
+        gap: 12px;
+        width: 100%;
+        height: 48px;
+        border: none;
+        border-radius: 8px;
+        justify-content: center;
+        align-items: center;
+    }
+    button:hover{
+        background: #1A4032;
+        cursor: pointer;
+    }
+}
