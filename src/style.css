@@ -9,6 +9,9 @@ body{
     background: #F2EAE2;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 p {
 	font-size: 14px;
@@ -30,4 +33,11 @@ h2 {
 }
 .txt-marine{
     color: #3D8168;
+}
+main{
+    display: flex;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    flex-direction: row;
 }
