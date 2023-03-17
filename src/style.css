@@ -37,7 +37,20 @@ h2 {
 main{
     display: flex;
     max-width: 600px;
+    height: 450px;
     background-color: #fff;
     border-radius: 10px;
     flex-direction: row;
+}
+#image{
+    width: 50%;
+    height: 100%;
+    background-image: url(./img/parfum.png);
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#info{
+    width: 50%;
+    height: 100%;
 }
